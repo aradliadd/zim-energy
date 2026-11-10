@@ -1,3 +1,9 @@
+/* Futurism — © Alon Tayar */
+@font-face{font-family:"Futurism";src:url("fonts/Futurism-ExtraLight.woff") format("woff");font-weight:200;font-style:normal;font-display:swap}
+@font-face{font-family:"Futurism";src:url("fonts/Futurism-Light.woff") format("woff");font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:"Futurism";src:url("fonts/Futurism-Regular.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Futurism";src:url("fonts/Futurism-Bold.woff") format("woff");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:"Futurism";src:url("fonts/Futurism-Black.woff") format("woff");font-weight:900;font-style:normal;font-display:swap}
 /* RENEWABLE ENERGY by Rani Zim — site styles
    Palette from the company deck: brand blue, brand green, white. No black. */
 :root{
@@ -17,7 +23,7 @@
   --radius-sm:10px;
   --shadow:0 10px 30px -12px rgba(6,47,94,.22);
   --shadow-sm:0 4px 14px -6px rgba(6,47,94,.18);
-  --font:'Rubik','Assistant','Arial Hebrew',Arial,sans-serif;
+  --font:'Futurism','Arial Hebrew',Arial,sans-serif;
   --wrap:1200px;
   --gutter:clamp(16px,4vw,40px);
 }
@@ -27,7 +33,7 @@ body{margin:0;font-family:var(--font);font-size:17px;line-height:1.7;color:var(-
 img{max-width:100%;display:block}
 a{color:var(--blue);text-decoration:none}
 a:hover{color:var(--blue-700)}
-h1,h2,h3,h4{margin:0;line-height:1.15;font-weight:600;letter-spacing:-.01em}
+h1,h2,h3,h4{margin:0;line-height:1.15;font-weight:700;letter-spacing:-.01em}
 p{margin:0}
 ul{margin:0;padding:0;list-style:none}
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--gutter)}
@@ -81,7 +87,7 @@ ul{margin:0;padding:0;list-style:none}
 .hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(270deg,rgba(6,47,94,.92) 0%,rgba(8,66,127,.72) 42%,rgba(10,80,159,.18) 78%,rgba(10,80,159,.05) 100%)}
 .hero .wrap{position:relative;min-height:clamp(440px,62vh,640px);display:flex;flex-direction:column;justify-content:center;padding-top:72px;padding-bottom:96px}
 .hero--home .wrap{min-height:clamp(540px,86vh,820px)}
-.hero h1{font-size:clamp(40px,6.4vw,78px);font-weight:600;max-width:13ch}
+.hero h1{font-size:clamp(40px,6.4vw,78px);font-weight:700;max-width:13ch}
 .hero h1 .light{display:block;font-weight:300;color:#DDEBFA}
 .hero p.lead{font-size:clamp(18px,1.6vw,21px);max-width:48ch;margin-top:22px;color:#E8F1FB;font-weight:300}
 .hero .actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
@@ -104,7 +110,7 @@ main{overflow-x:clip}
 .sec--blue{background:var(--blue);color:#fff}
 .sec--deep{background:linear-gradient(160deg,var(--blue-900),var(--blue-700));color:#fff}
 .sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:44px;flex-wrap:wrap}
-.sec-head h2,.h2{font-size:clamp(32px,4.2vw,52px);font-weight:600;color:var(--blue)}
+.sec-head h2,.h2{font-size:clamp(32px,4.2vw,52px);font-weight:700;color:var(--blue)}
 .sec-head h2 .light,.h2 .light{display:block;font-weight:300;color:var(--ink)}
 .on-dark .sec-head h2,.on-dark .h2{color:#fff}
 .on-dark .sec-head h2 .light,.on-dark .h2 .light{color:#CFE3F8}
@@ -195,7 +201,7 @@ a.domain:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:
 .col ul{padding:8px 26px 26px}
 .col li{padding:16px 0;border-bottom:1px dashed rgba(255,255,255,.22)}
 .col li:last-child{border-bottom:0}
-.col .cap{font-size:22px;font-weight:600;color:#B9E6A8}
+.col .cap{font-size:22px;font-weight:700;color:#B9E6A8}
 .col .cap.ltr{direction:ltr;text-align:right}
 .col .what{font-size:16px;color:#E6F0FB}
 .col .where{font-size:14px;color:#BCD3EE}
@@ -243,7 +249,7 @@ a.domain:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:
 /* ---------- vision ---------- */
 .vision{text-align:center}
 .vision h2{font-size:clamp(40px,7vw,96px);font-weight:300;letter-spacing:.02em;direction:ltr}
-.vision h2 b{font-weight:600;color:var(--green)}
+.vision h2 b{font-weight:700;color:var(--green)}
 .vision p{max-width:60ch;margin:22px auto 0;font-size:19px;color:#D8E7F7;font-weight:300}
 .vision .actions{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:32px}
 
